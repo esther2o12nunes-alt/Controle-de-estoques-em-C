@@ -157,12 +157,11 @@ int main() {
         printf("==================================\n");
         printf("        Controle de Estoque       \n");
         printf("==================================\n");
-        printf("O que deseja fazer?\n\n");
         printf("1. Adicionar item.\n");
         printf("2. Remover item.\n");
         printf("3. Listar estoque.\n");
         printf("4. Sair.\n");
-         printf("Escolha uma opção: ");
+         printf("Selecione uma opção: ");
         
         if (scanf("%d", &opcao) != 1) {
             limparBuffer ();
